@@ -558,7 +558,7 @@ function canvas1(){
   
   gsap.to(".page-7-circle",{
     scrollTrigger:{
-      trigger:`.page7-cir`,
+      trigger:`.page-7-circle`,
       start:`top center`,
       end:`bottom top`,
       scroller:`#main`,
